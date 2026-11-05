@@ -1,0 +1,26 @@
+<svg viewBox="220 120 1740 490" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ZAPALIZ">
+  <title>ZAPALIZ</title>
+  <defs>
+    <polygon id="zl-z" points="772,270 923,270 923,298 828,416 923,416 923,453 772,453 772,424 867,302 772,302"/>
+    <path id="zl-a" fill-rule="evenodd" d="M1032,267 H1063 L1144,453 H1100 L1085,416 H1010 L995,453 H949 Z M1048,333 L1069,383 H1025 Z"/>
+  </defs>
+  <g fill="none" stroke="#FFFFFF" stroke-width="74" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M343,175 H603 C640,175 665,195 660,235 C658,252 650,262 635,278 L510,412"/>
+    <path d="M450,315 L315,465 C290,490 290,548 350,548 H603"/>
+  </g>
+  <g fill="#A6DC00">
+    <ellipse cx="299" cy="286" rx="61" ry="56"/>
+    <ellipse cx="649" cy="449" rx="61" ry="57"/>
+  </g>
+  <g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round">
+    <use href="#zl-z"/>
+    <path fill-rule="evenodd" d="M1174,267 H1255 C1308,267 1324,302 1324,330 C1324,360 1303,391 1255,391 H1211 V456 H1174 Z M1211,305 V353 H1250 C1272,353 1282,342 1282,329 C1282,316 1272,305 1250,305 Z"/>
+    <use href="#zl-a" transform="translate(368 0)"/>
+    <polygon points="1546,267 1583,267 1583,418 1674,418 1674,456 1546,456"/>
+    <rect x="1707" y="267" width="37" height="189"/>
+    <use href="#zl-z" transform="translate(1013 0)"/>
+  </g>
+  <g fill="#A6DC00" stroke="#A6DC00" stroke-width="8" stroke-linejoin="round">
+    <use href="#zl-a"/>
+  </g>
+</svg>

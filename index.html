@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ZAPALI — Agencia de páginas web</title>
+<meta name="description" content="Diseño web, branding y producto 3D para marcas que quieren que las recuerden.">
+<meta name="theme-color" content="#0B1F34">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="css/intro.css">
+</head>
+<body>
+<div id="pre" aria-hidden="true"><b id="pn">0</b><i id="pb"></i></div>
+<div class="cur" id="cur"></div>
+<canvas id="gl"></canvas>
+<nav id="nav" aria-label="Principal">
+  <a href="#" class="brand" aria-label="ZAPALI, inicio">
+    <img class="lg lg-dark" src="assets/logo-negativo.svg" alt="ZAPALI" height="30">
+    <img class="lg lg-light" src="assets/logo-color.svg" alt="ZAPALI" height="30">
+  </a>
+  <div class="links" id="links"><a href="#servicios">Servicios</a><a href="#estudio">Estudio 3D</a><a href="#trayectoria">Trayectoria</a><a href="#proceso">Proceso</a><a href="#faq">FAQ</a><a href="#contacto">Contacto</a></div>
+  <div class="nav-r"><button id="th" class="btn" aria-label="Cambiar tema">◐</button><a href="#contacto" class="btn p cot">Cotizar</a><button id="mb" class="btn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="links"><span></span><span></span></button></div>
+  <i class="prog" id="prog"></i>
+</nav>
+<a class="btn p wa" href="https://wa.me/520000000000" target="_blank" rel="noopener">WhatsApp</a>
+
+<main>
+<section id="intro" class="intro" aria-label="Bienvenida">
+  <div class="intro-in">
+    <h2 class="hola" aria-label="Hola"></h2>
+
+    <svg class="logo" viewBox="220 120 1740 490" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logotipo ZAPALIZ">
+      <defs>
+        <polygon id="zl-z" points="772,270 923,270 923,298 828,416 923,416 923,453 772,453 772,424 867,302 772,302"/>
+        <path id="zl-a" fill-rule="evenodd" d="M1032,267 H1063 L1144,453 H1100 L1085,416 H1010 L995,453 H949 Z M1048,333 L1069,383 H1025 Z"/>
+      </defs>
+
+      <!-- Icono Z (se dibuja) -->
+      <path class="dr" pathLength="1" d="M343,175 H603 C640,175 665,195 660,235 C658,252 650,262 635,278 L510,412"/>
+      <path class="dr" pathLength="1" d="M450,315 L315,465 C290,490 290,548 350,548 H603"/>
+
+      <!-- Puntos verdes (entran con rebote) -->
+      <ellipse class="dot" cx="299" cy="286" rx="61" ry="56"/>
+      <ellipse class="dot" cx="649" cy="449" rx="61" ry="57"/>
+
+      <!-- Texto ZAPALIZ (letra por letra) -->
+      <g class="lt"><use href="#zl-z"/></g>
+      <g class="lt g"><use href="#zl-a"/></g>
+      <g class="lt"><path fill-rule="evenodd" d="M1174,267 H1255 C1308,267 1324,302 1324,330 C1324,360 1303,391 1255,391 H1211 V456 H1174 Z M1211,305 V353 H1250 C1272,353 1282,342 1282,329 C1282,316 1272,305 1250,305 Z"/></g>
+      <g class="lt"><use href="#zl-a" transform="translate(368 0)"/></g>
+      <g class="lt"><polygon points="1546,267 1583,267 1583,418 1674,418 1674,456 1546,456"/></g>
+      <g class="lt"><rect x="1707" y="267" width="37" height="189"/></g>
+      <g class="lt"><use href="#zl-z" transform="translate(1013 0)"/></g>
+    </svg>
+
+    <div class="scroll" aria-hidden="true">
+      <span>Desliza</span>
+      <i></i>
+    </div>
+  </div>
+</section>
+
+<header class="hero">
+  <div class="hero-c">
+    <p class="eyebrow">Diseño web · Branding · 3D</p>
+    <h1><span class="l" data-split>Webs que enamoran,</span><span class="l grad" data-split>marcas que se recuerdan.</span></h1>
+    <p class="sub">Somos diseñadores y programadores. Convertimos tu idea en un sitio veloz, una marca con carácter y hasta un producto en 3D que tus clientes querrán tocar.</p>
+    <div class="cta"><a href="#servicios" class="btn p">Ver lo que hacemos</a><a href="#estudio" class="btn">Jugar con el estudio 3D</a></div>
+  </div>
+</header>
+
+<div class="marq"><div id="mq"></div></div>
+<section class="mani"><p id="mani">Hacemos marcas que se ven increíbles, webs que cargan en segundos y experiencias que convierten visitas en clientes.</p></section>
+
+<section id="servicios" class="hs">
+  <div class="hs-head"><h2 data-split>Todo lo que tu marca necesita</h2><div class="bar"><i></i></div></div>
+  <div class="track">
+    <article class="card"><div class="num grad">01</div><h3>Webs que trabajan por ti</h3><p>Landing pages, sitios corporativos y plataformas con UI/UX cuidado, prototipos que puedes tocar antes de programar y código ligero que convierte cada visita en una oportunidad.</p><div class="tags"><span>UI/UX</span><span>Prototipos</span><span>Responsivo</span></div></article>
+    <article class="card"><div class="num grad">02</div><h3>Marcas con personalidad</h3><p>Logotipo, paleta, tipografías y manual de marca que dicen quién eres, de la pantalla al empaque. Con mockups 3D para verlo antes de producirlo.</p><div class="tags"><span>Logotipo</span><span>Empaque 3D</span><span>Impresión</span></div></article>
+    <article class="card"><div class="num grad">03</div><h3>Contenido que detiene el scroll</h3><p>Banners, redes sociales, anuncios y campañas con motion graphics que cuentan tu historia en segundos y se quedan en la memoria.</p><div class="tags"><span>Redes sociales</span><span>Banners</span><span>Motion</span></div></article>
+    <article class="card"><div class="num grad">04</div><h3>Tiendas listas para vender</h3><p>Catálogos y tiendas con carrito, pagos y cotización por WhatsApp. Con visor 3D para que tus clientes vean cada producto desde todos los ángulos.</p><div class="tags"><span>E-commerce</span><span>Visor 3D</span><span>WhatsApp</span></div></article>
+    <article class="card"><div class="num grad">05</div><h3>Tu sitio, siempre al día</h3><p>Mantenimiento, correcciones, mejoras de velocidad, soporte y SEO para que tu web siga rápida, segura y fácil de encontrar.</p><div class="tags"><span>SEO</span><span>Rendimiento</span><span>Soporte</span></div></article>
+  </div>
+</section>
+
+<section id="estudio" class="studio">
+  <div class="txt">
+    <p class="eyebrow">Branding en 3D</p>
+    <h2 data-split>Mira tu marca antes de producirla.</h2>
+    <p>Tu identidad cobra vida sobre un vaso y una bolsa de café. Gira el producto y prueba cualquier color con la paleta, el selector o el código hex. Decide con los ojos antes de imprimir.</p>
+    <div class="tags"><span>Vaso</span><span>Bolsa de café</span><span>Etiqueta</span><span>Mockup</span></div>
+  </div>
+  <div class="stage" id="stage" aria-label="Producto 3D: arrastra para girarlo 360 grados">
+    <p class="hint3">Arrastra para girarlo 360°</p>
+    <div class="tools" role="group" aria-label="Controles del producto">
+      <button class="sw" style="--c:#0B1F34" aria-label="Azul profundo" aria-pressed="true"></button>
+      <button class="sw" style="--c:#0088FF" aria-label="Azul tech" aria-pressed="false"></button>
+      <button class="sw" style="--c:#00E5FF" aria-label="Cyan" aria-pressed="false"></button>
+      <button class="sw" style="--c:#FFFFFF" aria-label="Blanco" aria-pressed="false"></button>
+      <i></i>
+      <input id="cc" type="color" value="#0b1f34" aria-label="Selector de color (incluye cuentagotas en Chrome y Edge)">
+      <input id="hx" type="text" value="#0B1F34" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Color en hexadecimal">
+      <i></i>
+      <button id="auto" class="btn" type="button" aria-pressed="true">Auto</button>
+      <button id="wire" class="btn" type="button">Ver malla 3D</button>
+    </div>
+  </div>
+</section>
+
+<section id="trayectoria" class="sec">
+  <p class="eyebrow">Nuestra trayectoria</p>
+  <h2 data-gen>Años de oficio y un equipo que diseña y programa.</h2>
+  <p class="live">Somos <b id="live" class="grad">diseñadores web</b></p>
+  <div class="duo">
+    <div><h3 data-gen>Diseñamos</h3><p data-gen>Interfaces claras, identidades memorables, motion y empaques en 3D. Todo pensado para que tu marca se reconozca a la primera.</p><div class="tags"><span>UI/UX</span><span>Branding</span><span>Motion</span><span>Producto 3D</span></div></div>
+    <div><h3 data-gen>Programamos</h3><p data-gen>Sitios veloces, accesibles y hechos a tu medida, con animación e interacción que sorprenden y código listo para crecer contigo.</p><div class="tags"><span>HTML / CSS / JS</span><span>GSAP</span><span>Three.js</span><span>E-commerce</span></div></div>
+  </div>
+</section>
+
+<div class="stats">
+  <div class="stat"><b class="grad" data-n="5">0</b><span>Servicios, un solo equipo</span></div>
+  <div class="stat"><b class="grad" data-n="100" data-s="%">0</b><span>Sitios que lucen bien en cualquier pantalla</span></div>
+  <div class="stat"><b class="grad" data-n="4">0</b><span>Etapas claras, de la idea al lanzamiento</span></div>
+  <div class="stat"><b class="grad" data-n="24" data-s="h">0</b><span>Para responder a tu mensaje</span></div>
+</div>
+
+<section id="proceso" class="sec">
+  <div class="proc">
+    <div class="l"><p class="eyebrow">Cómo trabajamos</p><h2 data-split>De tu idea a un sitio en vivo.</h2><p>Sin sorpresas: sabes qué hacemos, cuándo y con qué avances en cada etapa.</p></div>
+    <div>
+      <div class="step"><small>01</small><h3>Descubrir</h3><p>Escuchamos tu negocio, a tu cliente y tus metas. Salimos con un plan claro, prioridades y la forma de medir el éxito.</p></div>
+      <div class="step"><small>02</small><h3>Diseñar</h3><p>Identidad, prototipos y mockups 3D. Lo ves y lo apruebas antes de escribir una sola línea de código.</p></div>
+      <div class="step"><small>03</small><h3>Desarrollar</h3><p>Programamos rápido, accesible y listo para buscadores. Cada detalle funciona en celular, tablet y escritorio.</p></div>
+      <div class="step"><small>04</small><h3>Optimizar</h3><p>Lanzamos, medimos y mejoramos. Seguimos contigo con soporte y ajustes para que tu web nunca se quede atrás.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="sec">
+  <p class="eyebrow">Dudas frecuentes</p>
+  <h2 data-split>Lo que todos preguntan.</h2>
+  <div style="margin-top:3rem">
+    <details><summary>¿Cuánto tarda un proyecto?</summary><p>Una landing puede estar en pocas semanas; un sitio corporativo o una tienda toma más etapas. En tu cotización recibes un calendario claro con fechas de entrega.</p></details>
+    <details><summary>¿Pueden mostrar mi producto en 3D?</summary><p>Sí. Modelamos vasos, empaques y etiquetas con tu identidad y los integramos como visor interactivo en tu sitio o tienda.</p></details>
+    <details><summary>¿Puedo vender por WhatsApp?</summary><p>Claro. Puedes tener carrito y pagos en línea, o dejar que tus clientes pidan y coticen directo por WhatsApp. Tú eliges.</p></details>
+  </div>
+</section>
+
+<section id="contacto" class="sec">
+  <p class="eyebrow">Hablemos</p>
+  <h2 class="grad" data-split>Cuéntanos tu idea.</h2>
+  <div class="ct">
+    <div class="info">
+      <a href="mailto:hola@zapali.com"><small>Correo</small><b>hola@zapali.com</b></a>
+      <a href="https://wa.me/520000000000" target="_blank" rel="noopener"><small>WhatsApp</small><b>+52 00 0000 0000</b></a>
+      <div><small>Ubicación</small><b>México · Trabajamos en remoto con todo el país</b></div>
+      <div><small>Horario</small><b>Lunes a viernes, 9:00 – 18:00</b></div>
+    </div>
+    <form id="f">
+      <div class="row"><label>Tu nombre<input name="n" required></label><label>Tu correo<input type="email" name="e" required></label></div>
+      <label>Servicio que te interesa<select name="s"><option>Diseño y desarrollo web</option><option>Branding e identidad visual</option><option>Diseño gráfico y contenido digital</option><option>Tiendas en línea y catálogos</option><option>Mantenimiento y optimización</option></select></label>
+      <label>Cuéntanos de tu proyecto<textarea name="m" rows="4" required></textarea></label>
+      <button class="btn p" type="submit" style="justify-content:center">Enviar mensaje</button>
+      <div id="ok" role="status"></div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="fg">
+    <div>
+      <a href="#" class="brand" aria-label="ZAPALI, inicio">
+        <img class="lg lg-dark" src="assets/logo-negativo.svg" alt="ZAPALI" height="30">
+        <img class="lg lg-light" src="assets/logo-color.svg" alt="ZAPALI" height="30">
+      </a>
+      <p style="margin-top:1rem;max-width:34ch">Diseño web, branding y producto 3D para marcas que quieren que las recuerden.</p>
+    </div>
+    <div><h4>Agencia</h4><a href="#servicios">Servicios</a><a href="#estudio">Estudio 3D</a><a href="#proceso">Proceso</a><a href="#contacto">Contacto</a></div>
+    <div><h4>Redes</h4><a href="#">Instagram</a><a href="#">Behance</a><a href="#">LinkedIn</a></div>
+  </div>
+  <div class="copy">© 2026 ZAPALI. Hecho con diseño, código y mucho café.</div>
+</footer>
+
+<!-- Librerías -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<!-- Propios: el orden importa -->
+<script src="js/core.js"></script>
+<script src="js/intro.js"></script>
+<script src="js/scenes.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
